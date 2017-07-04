@@ -19,7 +19,7 @@ describe('Array', function() {
       assertChai.lengthOf(beverages.tea, 3, 'beverages has 3 types of tea');
     });
 
-    it('should be test using chai library like a BDD test using through "expect" interface', function() {
+    it('should be test using chai library like a BDD test through "expect" interface', function() {
       expectChai(foo).to.be.a('string');
       expectChai(foo).to.equal('bar');
       expectChai(foo).to.have.lengthOf(3);
