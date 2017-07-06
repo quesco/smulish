@@ -4,7 +4,7 @@ var config = {
       port: 3000,
     },
     database: {
-      url: 'mongodb://localhost/quesco-react_dev'
+      url: 'mongodb://localhost/smulish_dev'
     }
   },
   testing: {
@@ -12,7 +12,7 @@ var config = {
       port: 3001
     },
     database: {
-      url: 'mongodb://localhost/quesco-react_test'
+      url: 'mongodb://localhost/smulish_test'
     }
   },
   production: {
@@ -20,7 +20,7 @@ var config = {
       port: 8080
     },
     database: {
-      url: 'mongodb://localhost/quesco-react'
+      url: 'mongodb://localhost/smulish'
     }
   }
 };
